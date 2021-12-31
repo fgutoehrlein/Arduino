@@ -1,0 +1,27 @@
+﻿<Window x:Class="ArduinoSender.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ArduinoSender"
+        mc:Ignorable="d"
+        Title="Arduino Sender" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ComboBox x:Name="ComboBoxPort" HorizontalAlignment="Left" Margin="163,53,0,0" VerticalAlignment="Top" Width="142"/>
+        <Label Content="COM/USB Port:" HorizontalAlignment="Left" Margin="46,48,0,0" VerticalAlignment="Top" Height="26" Width="117" HorizontalContentAlignment="Right"/>
+        <Label Content="Enter Data to send" HorizontalAlignment="Left" Margin="422,48,0,0" VerticalAlignment="Top" Height="26" Width="108"/>
+        <TextBox Name="TextBoxDataSend" HorizontalAlignment="Left" Margin="422,79,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="236" Height="18"/>
+        <Button Name="ButtonSendData" Click="OnClickSendData" Content="Send" HorizontalAlignment="Left" Margin="422,113,0,0" VerticalAlignment="Top" Width="108" Height="20"/>
+        <Button Name="ButtonConnectUsb" Click="OnClickConnectUsbPort" Content="Connect" HorizontalAlignment="Left" Margin="163,149,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.061,-0.432" Width="71"/>
+        <Label Content="Status:" HorizontalAlignment="Left" Margin="70,177,0,0" VerticalAlignment="Top" Height="26" Width="87" HorizontalContentAlignment="Right"/>
+        <ProgressBar Name="ProgressBarConnecting" HorizontalAlignment="Left" Height="18" Margin="163,182,0,0" VerticalAlignment="Top" Width="142"/>
+        <Button x:Name="ButtonDisconnectUsb" Click="OnClickDisconnectUsbPort" Content="Disconnect" HorizontalAlignment="Left" Margin="239,149,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.061,-0.432" Width="66"/>
+        <Label Content="Baud Rate:" HorizontalAlignment="Left" Margin="97,88,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right"/>
+        <ComboBox x:Name="ComboBoxBaudRate" HorizontalAlignment="Left" Margin="163,92,0,0" VerticalAlignment="Top" Width="142"/>
+        <TextBox Name="TextBoxRecievedData" HorizontalAlignment="Left" Margin="422,151,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="236" Height="66"/>
+
+    </Grid>
+</Window>

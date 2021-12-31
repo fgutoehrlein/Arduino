@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "8q067xM/lvODse8t8MwCxdwc0kUDxGg+idaoYAHPw9VGATb02WABldVGCvNZt9RVQ/zHafypvKeGdp5VI+Ckaw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\FGUTOEH\\source\\repos\\ArduinoSender\\ArduinoSender\\ArduinoSender.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FGUTOEH\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\FGUTOEH\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\FGUTOEH\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\FGUTOEH\\.nuget\\packages\\runtime.native.system.io.ports\\6.0.0\\runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\FGUTOEH\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.osx-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\FGUTOEH\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\6.0.0\\runtime.osx-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\FGUTOEH\\.nuget\\packages\\system.io.ports\\6.0.0\\system.io.ports.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
